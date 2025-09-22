@@ -1,6 +1,6 @@
-# LattePlus Programming Language Implementation
+# Interpreter of LattePlus Programming Language Implementation
 
-This project concerns the implementation of the LattePlus programming language, whose grammar is defined in the file `LattePlus.cf`.
+This project concerns the implementation of the interpreter of the LattePlus programming language. LattePlus grammar is defined in the file `LattePlus.cf`.
 
 ## Project Structure
 
@@ -15,7 +15,7 @@ The solution consists of the following files:
 - `ErrM.hs`  
 - `Makefile`  
 
-A typechecker and interpreter for LattePlus have been implemented.  
+A typechecker and interpreter for LattePlus have been implemented.
 I used monad transformers, making use of the `Reader`, `State`, `Except`, and `IO` monads.  
 
 - The global state is composed of:  
